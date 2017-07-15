@@ -7,6 +7,7 @@ This script is used to backup files to Amazon S3.
 After cloning this repository
 
 ```
+apt-get install zip
 pip3 install -r requirements.txt
 ```
 

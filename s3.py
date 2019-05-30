@@ -41,3 +41,4 @@ if __name__ == '__main__':
     bkp_file = zip_folder(path, source, dest)
     print(bkp_file)
     send_s3(bkp_file)
+    os.remove(bkp_file)
